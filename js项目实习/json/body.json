@@ -1,0 +1,466 @@
+[
+{
+	"title_l":"品牌活动",
+	"title_r":[
+				"高丝雪肌精4.3折起", 
+				"兰蔻专场1.6折起",
+		 		"科颜氏3.3折起"],
+	"content":[{
+				"img":"images/brand1.jpg"
+				},{
+				"img":"images/brand1.jpg"
+				},{
+				"img":"images/brand1.jpg"
+				},{
+				"img":"images/brand1.jpg"
+				},{
+				"img":"images/brand1.jpg"
+				}]
+},{
+	"title_l": "images/main1.jpg",
+	"title_r":	["红石榴",
+			  	 "小棕瓶",
+			 	 "保湿面膜",
+			  	 "补水保湿",
+			  	 "卸妆油",
+			  	 "小黑瓶",
+			 	 "倩碧三部曲"],
+	"content":[{
+		"banner": "images/main_banner1.jpg",
+		"child":[{
+			"img": "images/main_goods1.jpg",
+		  	"name": "Shiseido资生堂",
+		  	"title": "红颜激活精华露",
+		  	"des": "首款可提升肌肤的精华露",
+		  	"price": "595.",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/main_goods2.jpg",
+		  	"name": "Shiseido资生堂",
+		  	"title": "红颜激活精华露",
+		  	"des": "首款可提升肌肤的精华露",
+		  	"price": "595.",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/main_goods3.jpg",
+		  	"name": "Shiseido资生堂",
+		  	"des": "首款可提升肌肤的精华露",
+		  	"price": "595.",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/main_goods4.jpg",
+		  	"name": "Shiseido资生堂",
+		  	"des": "首款可提升肌肤的精华露",
+		  	"price": "595.",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/main_goods5.jpg",
+		  	"name": "Shiseido资生堂",
+		  	"des": "首款可提升肌肤的精华露",
+		  	"price": "595.",
+		  	"sale": "(6.9折)"
+		}]
+	}],
+	"accor":[{
+	 	"title": "护肤热销",
+	 	"child": [{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	}]
+	}],
+	"minbrand":[
+	 {"img":"images/minbrand1.jpg"}
+	,{"img":"images/minbrand1.jpg"}
+	,{"img":"images/minbrand1.jpg"}
+	,{"img":"images/minbrand1.jpg"}
+	,{"img":"images/minbrand1.jpg"}
+	,{"img":"images/minbrand1.jpg"}
+	,{"img":"images/minbrand1.jpg"}
+	,{"img":"images/minbrand1.jpg"}
+	,{"img":"images/minbrand1.jpg"}
+	,{"img":"images/minbrand1.jpg"}
+	,{"img":"images/minbrand1.jpg"}
+	,{"img":"images/minbrand1.jpg"}
+	
+	
+	]
+},{
+	"title_l": "images/main2.jpg",
+	"title_r":["迪奥",
+			  "唇膏",
+			  "眼影",
+			  "睫毛膏",
+			  "指甲油",
+			  "粉饼",
+			  "新款CC霜"],
+	"content":[{
+		"banner": "images/main_banner1.jpg",
+		"child":[{
+			"img": "images/main_goods1.jpg",
+		  	"name": "Shiseido资生堂",
+		  	"title": "红颜激活精华露",
+		  	"des": "首款可提升肌肤的精华露",
+		  	"price": "595.",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/main_goods2.jpg",
+		  	"name": "Shiseido资生堂",
+		  	"title": "红颜激活精华露",
+		  	"des": "首款可提升肌肤的精华露",
+		  	"price": "595.",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/main_goods3.jpg",
+		  	"name": "Shiseido资生堂",
+		  	"des": "首款可提升肌肤的精华露",
+		  	"price": "595.",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/main_goods4.jpg",
+		  	"name": "Shiseido资生堂",
+		  	"des": "首款可提升肌肤的精华露",
+		  	"price": "595.",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/main_goods5.jpg",
+		  	"name": "Shiseido资生堂",
+		  	"des": "首款可提升肌肤的精华露",
+		  	"price": "595.",
+		  	"sale": "(6.9折)"
+		}]
+	}],
+	"accor":[{
+	 	"title": "护肤热销",
+	 	"child": [{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	}]
+	}],
+	"minbrand":[
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	]
+},{
+	"title_l": "images/main3.jpg",
+	"title_r":["Q版",
+			  "套装",
+			  "男士香水",
+			  "女士香水",
+			  "香奈儿",
+			  "Dior"],
+	"content":[
+	{"img1":"images/perfume1.jpg"},
+	{"img2":"images/perfume2.jpg"},
+	{"img3":"images/perfume3.jpg"},
+	{"img4":"images/perfume4.jpg"},
+	{"img5":"images/perfume5.jpg"}
+],
+	"accor":[{
+	 	"title": "护肤热销",
+	 	"child": [{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	}]
+	}],
+	"minbrand":[
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	]
+},{
+	"title_l": "images/main4.jpg",
+	"title_r":["瑞士军刀",
+			  "Zippo",
+			  "洁面膏",
+			  "控油祛痘",
+			  "欧碧泉男士",
+			  "剃须"],
+	"content":[{
+		"banner": "images/main_banner4.jpg",
+		"child":[{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		}]
+	}],
+	"accor":[{
+	 	"title": "护肤热销",
+	 	"child": [{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	}]
+	}],
+	"minbrand":[
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	]
+},{
+	"title_l": "images/main5.jpg",
+	"title_r":["染发",
+			  "沐浴",
+			  "防脱发",
+			  "润体乳",
+			  "丰胸",
+			  "洗发护发",
+			  "护手霜"],
+	"content":[{
+		"banner": "images/main_banner5.jpg",
+		"child":[{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		},{
+			"img": "images/men1.jpg",
+		  	"name": "碧欧泉男士水动力水漾精华露",
+		  	"price": "¥205.00",
+		  	"sale": "(6.9折)"
+		}]
+	}],
+	"accor":[{
+	 	"title": "护肤热销",
+	 	"child": [{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	},{
+	 	 	"img": "images/accor1.jpg",
+	 	 	"title": "雅诗兰黛晶莹柔肤洁面乳",
+	 	 	"price": "¥26"
+	 	}]
+	}],
+	"minbrand":[
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	,
+	{"img":"images/minbrand1.jpg"}
+	]
+}
+]

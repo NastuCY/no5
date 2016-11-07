@@ -1,0 +1,41 @@
+[{
+	"banner": "images/banner1.jpg",
+	"sc":[
+	"images/sc1.jpg",
+	"images/sc2.jpg",
+	"images/sc3.jpg"]
+},{
+	"banner": "images/banner2.jpg",
+	"sc":[
+	"images/sc4.jpg",
+	"images/sc5.jpg",
+	"images/sc6.jpg"]
+},{
+	"banner": "images/banner3.jpg",
+	"sc":[
+	"images/sc7.jpg",
+	"images/sc8.jpg",
+	"images/sc9.jpg"]
+},{
+	"banner": "images/banner4.jpg",
+	"sc":[
+	"images/sc10.jpg",
+	"images/sc11.jpg",
+	"images/sc12.jpg"]
+},{
+	"banner": "images/banner5.jpg",
+	"sc":[
+	"images/sc13.jpg",
+	"images/sc14.jpg",
+	"images/sc15.jpg"]
+},{
+	"banner": "images/banner1.jpg",
+	"sc":[
+	"images/sc1.jpg",
+	"images/sc2.jpg",
+	"images/sc3.jpg"]
+}]
+	
+
+
+

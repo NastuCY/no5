@@ -1,0 +1,222 @@
+*{ 
+	margin:0;
+	padding:0;}
+ul,li{
+	list-style:none}
+img{
+ vertical-align: top;
+    border: 0 none;}
+a{
+	text-decoration: none;
+	color:#666;}
+a:hover{
+	text-decoration: none;}
+.LETTER-RED { color: #ff1a3a!important;}
+	
+	/**************************HEADER***************************/
+#head_info #nav #navbox dl{display:block;position: relative;}
+#back-top .top,.inline{border:1px solid #ccc;width:40px;height:50px;background:#f1f1f1;}
+#back-top .top{position:fixed;bottom:60px;right:-15px;display:none;}
+#back-top .top dt{background:url(../images/kf.jpg) no-repeat center -25px;width:40px;height:25px;}   
+#back-top .top dd{width:40px;height:25px;text-align:center;}
+#back-top .inline{position:fixed;bottom:10px;right:-15px;}
+#back-top .inline dt{background:url(../images/kf.jpg) no-repeat center 0;width:40px;height:25px;}   
+#back-top .inline dd{width:40px;height:25px;text-align:center;}
+	/**************************BANNER***************************/
+#banner{height:400px;position:relative;}
+#banner .pic{width:760px;height:400px;position:absolute;margin-left:270px;float:left;}
+#banner .pic .banner1{position:relative;z-index: 0;}
+#banner .pic .banner li{position:absolute;top:0;}
+#banner .num {position: absolute;bottom: 10px;left:0px;}
+#banner .num li{float: left;width: 22px; height: 22px; border-radius: 50%; float: left; background: #e8e8e8; text-align: center; line-height: 22px; margin-left: 10px; cursor: pointer;}
+#banner .rightlb{height: 386px; width:190px;position:absolute;top:0;left:780px; float:right;margin-top:14px;margin-right:30px;}
+#banner .rightlb img{vertical-align: top;height:120px;}
+	/**************************滚动条******************************/
+#scrollbar{position: relative;width: 1263px;height: 220px;}
+#scrollbar .remind{height:33px; padding-left:20px; overflow:hidden;}
+#scrollbar .remind ul{height:33px;}
+#scrollbar .remind li{height:33px;line-height:33px;background:url(../images/remind.gif) no-repeat left center;padding-left:25px; }
+#scrollbar .remind li a:hover{text-decoration:underline;}
+#scrollbar .look{height:187px;position:absolute;left: 270px;}
+#scrollbar .look a{float:left;padding-left:10px;display: inline-block;}
+	/**************************限时抢购*****************************/
+#limit_buy{width: 1200px;position: relative;margin: 0 auto;height: 530px;}
+#limit_buy .title{background: url(../images/c-tbuy.jpg) no-repeat 2px 30px;border-bottom:2px solid #ff8c8f;height: 64px;margin-bottom: 10px;}
+#limit_buy .limittime{position: relative; float: left;width: 287px;border: 1px solid #e4e4e4;padding: 1px;height: 400px; margin-right: 11px;}
+#limit_buy .limittime:hover{border:1px solid red;border-bottom:none;}
+#limit_buy .limittime .time_top{ width: 214px; height: 38px; line-height: 38px; color: #999; background: #f8f7f5 url(../images/clock.jpg) no-repeat 33px 5px; padding-left: 73px;}
+#limit_buy .limittime .time_top span{font-size: 18px; font-weight: bold; color: #ff1a3a; font-family: Arial, Helvetica, sans-serif;margin: 0 5px}
+#limit_buy .limittime dl dt img{width: 260px; height: 260px; margin: 13px;}
+#limit_buy .limittime dl dt .text{font-weight: bold;line-height: 18px; height: 32px; padding: 0 13px;width: 261px; overflow: hidden;text-overflow: ellipsis;display: block;}
+#limit_buy .limittime dl dd { position: absolute;top: 362px;left: -1px; background: url(../images/ctimed.jpg) no-repeat; width: 271px; height: 55px;color: #fff;font-size: 18px;font-weight: bold;font-family: microsoft yahei; padding-top: 10px;padding-left: 20px;}
+#limit_buy .limittime dl dd b{color: #fff;margin-right: 4px;}
+#limit_buy .limittime .a-dd{font-size: 36px; font-family: Arial; color: #fff;}
+#limit_buy .limittime .infonum{position: absolute;top: 424px; right: 10px;}
+#limit_buy .limittime .infonum strong{ color: #ff1a3a; margin-right: 4px; font-size: 14px; font-family: Arial;}
+#limit_buy #num3{margin-right: 0;}
+	/**************************每日特价*****************************/
+#content{width: 1200px;margin:0 auto;}
+.sale{ height:477px; clear:both; padding-top:20px; border-bottom:1px solid #e4e4e4;}
+.sale .saletabs{ width:1200px; height:40px; line-height:40px; background: url(../images/salebg.gif) repeat-x; font-family: microsoft yahei; font-size: 18px; font-weight: bold; border-bottom: 2px solid #d0d0d0; position: relative; }
+.sale .saletabs ul li{ float:left;width:240px;height:40px;
+						   font-size:18px;cursor:pointer;
+						   background:url(../images/tabsli_bg.jpg) no-repeat right bottom;
+						   line-height:40px;font-weight:bold;
+						   text-align:center;color:#000;
+						   border-bottom:2px solid #ccc;}
+.sale .saletabs ul .tabli5{background: none;}
+
+.sale .salebox{ padding-top:15px;font-size: 12px;}
+
+.con-two .salebox-1,.con-two .salebox-2,.con-two .salebox-3,.con-two .salebox-4{ float:left;}
+.con-two .salebox-1,.con-two .salebox-2,.con-two .salebox-3,.con-two .salebox-2 .salebox-2-l{ border-right:1px solid #f1f1f1;}
+.con-two{display: none;}
+#con_two_1{display: block;}
+.con-two .salebox-1,.con-two .salebox-2 .salebox-2-l,.con-two .salebox-2 .salebox-2-r,.con-two .salebox-3,.con-two .salebox-4 dl{ width:239px;}
+.con-two dl dt{ text-align:center;}
+.con-two dl dd{ padding:0 13px; font-family:microsoft yahei; font-size:14px; line-height:18px; overflow:hidden; text-overflow:ellipsis; }
+.con-two dl .good-name, .con-two dl .good-name a{ color:#666; margin-bottom:10px;}
+.con-two dl .oneline{ height:18px; margin-top:5px; margin-bottom:0;  overflow:hidden; text-overflow:ellipsis; }
+.con-two dl .good-exce, .con-two dl .good-exce a{ color:#000; margin-bottom:40px;}
+.con-two dl .good-price{ font-size:18px; font-family:microsoft yahei; color:#ff1a3a;}
+.con-two dl .good-price .good-price-cur{font-size:24px; font-family:Arial, Helvetica, sans-serif; font-weight:bold;}
+.con-two dl .good-price .zhekou{ font-family:simsun; font-size:12px;}
+.con-two .salebox-2,.con-two .salebox-2 .salebox-2-d{ width:479px;}
+.con-two .salebox-2 .salebox-2-d dt,.con-two .salebox-2 .salebox-2-d dd{ float:left; width:220px;}
+.con-two .salebox-2 .salebox-2-d{ border-top:1px solid #f1f1f1; padding-top:10px;}
+.con-two .salebox-2 div{ float:left;}
+.con-two .salebox-2 .salebox-2-l,.con-two .salebox-4 dl{ padding-bottom:10px;}
+.con-two .salebox-3 dl dt{ margin-top:15px;}
+.con-two .salebox-2 .salebox-2-l,.con-two .salebox-2 .salebox-2-r{ height:200px;}
+.con-two .salebox-4 .s-4-t{ border-bottom:1px solid #f1f1f1;}
+#con_two_2 dl{ float:left; width:228px; margin-right:15px;}
+#con_two_2 .lastdl,#con_two_4 .lastdl{ margin-right:0;}
+#con_two_2 dl dt{ width:228px; height:300px;}
+#con_two_2 dl dd{ padding:0 5px;}
+#con_two_2 dl .pro-name{ padding-top:14px; padding-bottom:12px; height:11px; overflow:hidden; text-overflow:ellipsis;}
+#con_two_2 dl .whotui{ font-weight:bold; color:#0099ff;height: 14px;}
+#con_two_2 dl .pro-name a,#con_two_4 dl .pro-name a{ color:#444;}
+#con_two_2 dl .neir{background:url(../images/nrbg.jpg) no-repeat 5px 0; line-height:22px; margin-top:15px; color:#999; text-indent:2em; height:52px; overflow:hidden; text-overflow:ellipsis;}
+#con_two_2 dl .neir a{ color:#0099ff;}
+#con_two_4 dl{ width:206px; height:394px; border:1px solid #ededed; border-bottom:4px solid #ededed; background:#f6f6f6; margin-right:15px; padding:10px; float:left;}
+#con_two_4 dl dt{ width:180px; height:180px; background:#fff; padding:13px;}
+#con_two_4 dl dd{ padding:0 3px; width:200px;}
+#con_two_4 dl .pro-name{ border-bottom:1px solid #d1d1d1; height:12px; overflow:hidden; text-overflow:ellipsis; padding-top:15px; padding-bottom:10px; margin-bottom:3px;}
+#con_two_4 dl .pro-name a{font-size: 12px;}
+#con_two_4 dl .neir{ color:#999; line-height:18px; height:32px; overflow:hidden; text-overflow:ellipsis; margin-top:13px;}
+#con_two_4 dl .firstneir{ margin-top:16px;}
+#con_two_4 dl .neir span{ font-weight:bold; color:#0099ff; margin-right:7px;}
+	/**************************品牌活动*****************************/
+.brand-tit{ border-bottom:2px solid #d0d0d0; margin:20px 0 10px 0; width:1200px; height:40px; float:left;}
+.brand-tit-l{ font-family:microsoft yahei; font-size:18px; color:#333; float:left; font-weight:bold; padding-left:2px; width:230px; height:40px; line-height:40px;}
+.brand-tit-r{ float:right; display:inline; height:25px; width:900px; margin-top:10px;}
+.brand-tit-r dl dd{ float:right; height:25px; line-height:25px;}
+.brand-tit-r dl dd a{ height:25px; line-height:25px; padding:0 15px; float:left; background:url(../images/brangtit.jpg) no-repeat right center;}
+.brand-tit-r dl dd:first-child a{ background:none;}
+.brand-main .brand-item{ float:left; width:236px; height:300px; margin-right:5px;}
+.brand-main .last{ margin-right:0;}
+	/***************************护肤******************************/
+.skin-care{ border-bottom:2px solid #0094ff; margin-top:24px;}
+.sc-main{ width:1200px; height:538px; border-bottom:1px solid #e4e4e4; clear:both;}
+.sc-main .sc-banner{ float:left; width:268px; height:480px;}
+.sc-main .sc-list{ width:690px; float:left;}
+.sc-main .sc-top{ float:right; width:218px; margin-left:24px;}
+.sc-main .sc-list .sc-item{ width:344px; float:left; padding:7px 0 14px 0; height:180px;border-bottom:1px solid #f1f1f1;}
+.sc-main .sc-list .firstdl{ border-right:1px solid #f1f1f1;}
+.sc-main .sc-list .sc-item dt{ width:190px; float:left; text-align:center; }
+.sc-main .sc-list .sc-item dd{ width:150px; float:left; font-size:14px; line-height:18px; overflow: hidden; text-overflow: ellipsis; }
+.sc-main .sc-list .sc-item .good-name{ color:#666; margin-top:28px; margin-bottom:10px; height:36px; font-family:microsoft yahei;}
+.sc-main .sc-list .sc-item .good-exce{ color:#000; margin-bottom:30px; height:32px; font-family:microsoft yahei;}
+.sc-main .sc-list .sc-item .good-exce a{ color:#000;}
+.sc-main .sc-list .sc-item .good-price{ font-size:18px; font-family:microsoft yahei;}
+.sc-main .sc-list .good-price{ font-size:18px; font-family:microsoft yahei; color:#ff1a3a;}
+.sc-main .sc-list .good-price .good-price-cur{font-size:24px; font-family:Arial; font-weight:bold;}
+.sc-main .sc-list .good-price .zhekou{ font-family:simsun; font-size:12px;}
+.sc-main .sc-list .sc-item-d{ width:181px; border-right:1px solid #f1f1f1; float:left; padding:0 24px; padding-top:15px; font-family:microsoft yahei; font-size:14px;}
+.sc-main .sc-list .lastdl{ border-right:none;}
+.sc-main .sc-list .sc-item-d .good-name{ color:#666; height:18px; overflow: hidden; text-overflow: ellipsis;}
+.sc-main .sc-list .sc-item-d .good-exce{ color:#000; height:18px; overflow: hidden; text-overflow: ellipsis; margin-bottom:12px; margin-top:3px; }
+.sc-main .sc-list .sc-item-d .good-exce a{ color:#000;}
+
+/*护肤排行*/
+.sc-main .sc-top h2{ font-family:microsoft yahei; font-size:16px; line-height:32px; height:32px; color:#ff1a3a; text-align:center; width:218px; border-bottom:2px solid #d0d0d0;}
+.list_show li{ list-style:none; float:left; width:218px; }
+.list_show li .toplist{ display:block ;height:42px; line-height:42px; border-bottom:1px solid #e4e4e4; padding:0 8px; background:url(../images/accor-bg.jpg) no-repeat 7px 13px; overflow: hidden; text-overflow: ellipsis; }
+.list_show li .num{ font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#e9025e; display:block; width:22px; height:42px; line-height:44px; padding-left:5px; float:left; }
+.list_show li div{ display:none;float:left;}
+.list_show li.hover span{ display:none;}
+.list_show li.hover div{ display:block; height:204px; width:176px; background:#fff;color:#aa0; border-bottom:1px solid #e4e4e4; text-align:center; padding:13px 21px; }
+.list_show li.hover div .top-name{ height:28px; line-height:28px; overflow: hidden; text-overflow: ellipsis; font-weight:bold;}
+.list_show li.hover div .top-price{ font-family:microsoft yahei; font-size:14px; color:#ff1a3a; font-weight:bold; }
+.sc-main .sc-brand{ width:1188px; height:58px; float:left; border-top:1px solid #e4e4e4; padding:0 6px;}
+.sc-main .sc-brand a { display:block; float:left; margin:11px 12px; display:inline; }
+.sc-main .sc-brand a img{ width:75px; height:36px;}
+
+/*香水*/
+.sc-main .perfume-img1{ float:left; width:326px; height:480px; margin-right:1px;}
+.sc-main .perfumegroup{ float:left; width:355px; height:480px; margin-right:1px;}
+.sc-main .perfume-img5{ float:left; width:275px; height:480px;}
+.sc-main .perfumegroup .perfume-img2{ width:355px; height:276px; margin-bottom:1px;}
+.sc-main .perfumegroup .perfume-img3{ float:left; width:177px; height:203px; margin-right:1px;}
+.sc-main .perfumegroup .perfume-img4{ float:left; width:177px; height:203px;}
+
+/*男士*/
+.sc-main .men-list{ width:614px; float:left; height:480px;}
+.sc-main .men-banner{ float:left; width:344px; height:480px;}
+.sc-main .men-list .men-item{ float:left; width:184px; height:227px; border-right:1px solid #f1f1f1; border-bottom:1px solid #f1f1f1; padding:6px 10px; text-align:center;}
+.sc-main .men-list .men-item dt{ text-align:center; width:180px; height:180px;}
+.sc-main .men-list .men-item dd{ font-family:microsoft yahei; font-size:14px; margin-top:4px; height:18px; overflow: hidden; text-overflow: ellipsis;}
+.sc-main .men-list .men-item .good-exce{ color:#ff1a3a; font-weight:bold; text-align:center; }
+.sc-main .men-list .men-item .good-name{ margin-top:5px;}
+.sc-main .men-list .men-item .good-price{ color:#ff1a3a; font-size:16px; font-family:microsoft yahei; font-weight:bold;}
+.sc-main .men-list .men-item .good-price .zhekou{ font-family:simsun; font-size:12px; font-weight:normal;}
+.sc-main .men-list .lastdl{ border-right:none;}
+.sc-main .men-list .bottomdl{ border-bottom:none;}
+	/***************************美容资讯******************************/
+.news{ float:left; width:765px; border:1px solid #e4e4e4; margin-top:25px; border-top:2px solid #d0d0d0; padding:1px 20px; height:478px; overflow:hidden;}
+.news h2{ font-size:16px; font-family:microsoft yahei; color:#333; height:36px; line-height:36px; border-bottom:1px solid #e4e4e4; padding-left:4px; margin-bottom:20px;}
+.news .info-l{ float:left; width:250px; padding:0 32px 0 10px;}
+.news .info-l .title{ color:#545454; font-size:14px; font-weight:bold; margin-top:13px; margin-bottom:5px; height:16px; line-height:16px; overflow:hidden;}
+.news .neir,.beautyshare dl .neir{ color:#999; line-height:22px; height:48px; overflow: hidden; text-overflow: ellipsis;}
+.news .neir a{ color:#c80f2f;}
+.news .info-r{ float:left; width:465px;}
+.news .info-r dl{ height:140px; clear:both;}
+.news .info-r dl dt{ float:left; width:174px;}
+.news .info-r dl dd{ float:left; width:291px;}
+.news .info-r .title,.rec dl .title{ color:#545454; font-weight:bold; line-height:36px; height:36px; margin-top:3px; overflow: hidden; text-overflow: ellipsis;white-space: nowrap;}
+.news .info-r .title span{ color:#00a2ff; margin-right:9px;}
+.news .info-r .neir{ height:68px;}
+/***************************编辑推荐******************************/
+.rec{ float:right; width:368px; border:1px solid #e4e4e4; background:#f9f9f9; margin-top:25px; border-top:2px solid #d0d0d0; position:relative; padding-bottom:10px;}
+.rec h2{ position:absolute; width:338px; top:9px; left:-9px; background:url(http://photo.no5.com.cn/page_2014/images/dbg.jpg) no-repeat; height:43px; line-height:36px;font-size:16px; font-family:microsoft yahei; color:#fff; padding-left:19px; }
+.rec h2 span{ float:right; font-family:simsun; font-size:12px; color:#666; font-weight:normal;}
+.rec dl{ margin:0 22px; width:324px; height:93px; border-top:1px dotted #aaa; padding-top:11px;}
+.rec .firstdl{ border-top:none; padding-top:61px;}
+.rec dl dt{ float:right; width:100px; text-align:right;}
+.rec dl dt a img{ border:1px solid #ccc;}
+.rec dl dd{ float:left; width:224px;}
+.rec dl .title{ line-height:29px; height:29px;}
+.rec dl .neir{ line-height:18px; height:38px;}
+.rec dl .neir a{ color:#999;}
+.rec dl .neir a:hover{ color:#c80f2f; text-decoration:underline;}
+.rec dl .neir span{ font-weight:bold; color:#c80f2f;}
+	/***************************foot******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+/*----------------------公用样式-------------------*/
+*{ margin: 0; padding: 0;}
+ul,li{list-style: none}
+a{text-decoration: none;color: #666;}
+a:hover{text-decoration: none;}
+body{ font-size: 12px;color: #666;}
+img { vertical-align: top;
+    border: 0 none;}
+/*----------------------头部最上端-------------------*/
+#head_top{height: 30px;border-bottom: 1px solid #e0e0e0;  background: url(../images/header-top.gif) repeat-x;margin: 0 auto;padding: 0 40px;}
+.headbg{width: 1263px;height: 30px;}
+#head_top .top_left{ margin-top: 9px;float: left;padding-left: 3px;overflow: hidden;}
+#head_top .top_right{ float: right;}
+#head_top .top_right ul li{ float: left; line-height: 30px; color: #ccc; z-index: 1; position: relative;padding-right: 10px;}
+#head_top .top_right ul li b{ background: url(../images/header-down.gif) no-repeat; width: 7px; height: 4px; position: absolute; overflow: hidden; top: 13px; right:9px;}
+#head_top .top_right ul li a{color: #666;}
+#head_top .top_right ul .first{ padding-right: 10px;width: 60px;z-index: 1; padding-left: 10px;}
+#head_top .top_right ul .first .account{display: none;}
+#head_top .top_right ul .first:hover{width: 59px; background: #fff; border: 1px solid #dcdcdc; border-bottom: none; border-top: none;}
+#head_top .top_right ul .first:hover .account{display: block; position: absolute; top: 30px; left: -1px; width: 69px; background: #fff; border: 1px solid #dcdcdc; padding-left: 10px; border-top: none;}
+#head_top .top_right ul .first:hover .account p{line-height:20px; height:20px;}
+#head_top .top_right ul .first:hover .account p a:hover{text-decoration:underline; color:#ff1a3a;}
+#head_top .top_right ul .last{ background: url(../images/header-phone.png) no-repeat 7px center; color: #ff1a3a;font-size: 18px;font-family: Arial, Helvetica, sans-serif;padding-left: 30px;font-style: italic;}
+ /*----------------------搜索框-------------------*/
+#head_search{height: 90px;padding: 0 40px;overflow: hidden;position: relative;}
+.searchbg{width: 1263px;}
+#head_search .logo{ float: left; padding: 15px 170px 0 35px;}
+#head_search .search{float: left; margin-top:23px;position: absolute;left: 395px;}
+#head_search .search .inp{ border: none; background: none; float: left; width: 341px; height: 14px; color: #666; font-size: 14px; padding: 8px 10px; outline: 0 none;}
+#head_search .search .del-keywords{ position: absolute; visibility: hidden; cursor: pointer; margin-left: 340px; margin-top: 2px; padding: 5px; font-size: 14px;}
+#head_search .search .btn{ float: right; height: 26px; width: 64px; background: #02a3f0; border:2px solid #02a3f0; text-align: center; line-height: 26px; font-size: 14px; color: #fff; font-weight: 600;cursor:pointer}
+#head_search .search_top{width: 432px;height: 30px;box-shadow: 3px 3px 5px #b8b8b8; border: 2px solid #02A3F0}
+#head_search .search_foot{padding-top: 3px;width: 630px;overflow: hidden;white-space: nowrap;}
+#head_search .search_foot a{ height: 22px;line-height: 22px;padding: 6px;}
+#head_search .search_foot a:hover{  text-decoration: underline; color: #ef3621;;}
+#head_search .search_right{ float: right;  height: 44px; margin-top:20px;position: absolute;right: 40px;}
+#head_search .search_right .in{ background: url(../images/detail.gif) no-repeat 0px -30px;display: block;font-size: 12px;padding-left: 70px;width: 125px;height: 44px;line-height: 44px; cursor: pointer;}
+#head_search .search_right strong{color: #ff1a3a;margin: 0 4px;font-family: microsoft yahei}
+#head_search .search_right .shoplist{ display: none;}
+/*---------------------------导航栏-------------------------------*/
+#nav{ height: 40px;background: url(../images/nav-bg.gif) repeat-x;width: 1263px;}
+#nav .navbox{ margin: 0 auto; position: relative; z-index: 1;height: 40px;}
+#nav .navbox #float_list{width:230px;padding-left:40px ;}
+#nav .float_list_btn{ display: block; width: 230px; z-index: 3; height: 40px; line-height: 40px;color: #fff; font-family: microsoft yahei; text-align: center; font-size: 16px; background: #03ADEB; cursor: default;}
+#nav #subnav{position: absolute; top: 0;left: 270px; height: 40px; line-height: 40px; font-size: 16px; font-family: microsoft yahei;margin-left: 7px;}
+#nav #subnav ul li{float: left; background:url(../images/navlibg.jpg) no-repeat left center; padding: 0 30px;}
+#nav #subnav ul li a{color: #fff; display: block;}
+#nav #subnav ul li a:hover{ color: #2ad0ff;}
+
+/************************导航菜单***************************************/
+#nav #navbox{position: absolute;}
+#navbox dl{ position: relative; float: left;z-index: 2;clear: both; width: 230px; line-height: 40px; color: #fff; font-family: microsoft yahei; text-align: center; font-size: 16px;display: none;}
+#navbox dt{ display: inline; position: relative; float: left; width: 208px; border: 1px solid #e7e7e7; border-top: none; line-height: 22px; overflow: hidden; text-align: left; padding: 13px 0px 6px 20px;background: #f8f8f8;}
+#navbox h3{ font-size:13px;height:26px;line-height:26px;color:#000;background:url(../images/bgs2.gif) no-repeat 187px 3px;text-align: left;}
+#navbox h3 a{color: black; font-size: 14px;font-family: microsoft yahei;line-height: 18px;}
+#navbox  a:hover{ text-decoration: none;color:#03adeb;}
+#navbox dl dt p{ clear: both;
+    height: 44px;
+    line-height: 22px;
+    overflow: hidden;
+    font-family: simsun;
+    font-size: 12px;
+}
+#navbox dl dt p a{ white-space: nowrap; margin-right: 13px; float: left; color: #666;}
+#navbox dd{display: none;position: absolute;left: 230px; width: 650px; background: #fff; border: 1px solid #bdbdbd;z-index: 1}
+
+#navbox .secondlist{float: left;
+    width: 380px;
+    padding: 0 20px;
+    font-family: simsun;
+    font-size: 12px;}
+#navbox .secondlist li{ width: 380px;
+    padding: 10px 0;
+    border-bottom: 1px dotted #ccc;
+    line-height: 22px;
+    overflow: hidden;
+}
+#navbox .secondlist b{float:left; color:#000;margin-right:21px;line-height:32px;}
+#navbox dl dd .secondlist p a{padding-right:14px;float: left;}
+#navbox .hotbrand{
+	    float: left;
+    width: 200px;
+    background: #f8f8f8;
+    padding: 15px;
+}
+#navbox .hotbrand h4{
+	    color: #666;
+    font-family: simsun;
+    border-bottom: 1px solid #666;
+    line-height: 30px;
+    height: 30px;
+    text-align: left;
+}
+#navbox .hotbrand ul{
+	    width: 200px;
+    padding: 10px 0;
+    float: left;
+}
+#navbox .hotbrand ul li{
+	    border: none;
+    text-align: left;
+    padding-left: 0;
+    font-family: simsun;
+    font-size: 12px;
+    line-height: 22px;
+    float: left;
+    width: 100px;
+    
+}
+#nav #navbox #box0 dd{top:0;}
+#nav #navbox #box1 dd{top:-20px}
+#nav #navbox #box2 dd{top:-150px}
+#nav #navbox #box3 dd{top:-160px}
+#nav #navbox #box4 dd{top:-70px}
+#nav #navbox #box5 dd{top:-290px}
+#nav #navbox #box6 dd{top:-130px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

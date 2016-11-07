@@ -1,0 +1,24 @@
+.footer{ float:left; width:100%; height:200px; background:url(../images/f_03.jpg) repeat-x; border-top:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1; margin:30px auto; overflow:hidden;}
+.footer .f-cont{ width:1200px; margin:25px auto;}
+.footer .f-cont .f-info{ float:left; width:240px; padding-left:44px;}
+.footer .f-cont .f-info .tel{ background:url(../images/detail.gif) no-repeat 0 -157px; height:49px; width:197px;}
+.footer .f-cont .f-info .tel .num{ color:#ff1a3a; font-size:20px; font-family:Arial; padding-left:72px; font-style:italic; font-weight:bold; padding-top:8px;}
+.footer .f-cont .f-info .tel .fttime{ color:#444; text-align:right; width:197px;font-family: arial,\5b8b\4f53;}
+.footer .f-cont .f-info .weibo{ background:url(../images/w.jpg) no-repeat; width:197px; height:22px; line-height:22px; font-family:microsoft yahei; margin-top:10px; font-size:14px; font-family:microsoft yahei;  font-weight:bold; padding-left:30px;}
+.footer .f-cont .f-info .weibo a{ margin-left:6px;}
+.footer .f-cont .f-info .ding{ margin-top:10px;}
+.footer .f-cont .f-info .ding input{ width:132px; height:24px; line-height:24px; background:#fff; border:1px solid #e8e8e8; color:#666; padding-left:4px; font-size:12px;outline: 0 none;}
+#subscribe_btn{ margin-left:6px;}
+.footer .f-cont .f-info .ps{ color:#9b9b9b; line-height:22px; padding-left:3px;}
+.footer .f-cont .howto{ float:left; width:100px; padding-left:25px; border-left:1px solid #e1e1e1; height:150px;}
+.footer .f-cont .howto dt{ margin-bottom:14px;}
+.footer .f-cont .howto dt a{ font-size:16px; color:#444; font-family:microsoft yahei;}
+.footer .f-cont .howto dd a{ height:22px; line-height:22px; color:#999;}
+.footer .f-cont .lastdl{ border-right:1px solid #e1e1e1;}
+.footer .f-cont .QR-code{ padding-top:11px; padding-left:33px; float:left; background:url(../images/ss.jpg) no-repeat 30px 104px; width:125px; height:150px;}
+.footer .f-cont .QR-code img{ border:1px solid #e1e1e1;}
+.foot-bottom{ width:880px; border-bottom:1px solid #ccc; height:130px; clear:both; margin:0 auto; padding:0 160px 0 160px;}
+.foot-bottom .fb{ width:140px; height:110px; float:left; margin:0 40px;}
+.foot-bottom .fb dt{ width:108px; height:50px; margin-bottom:10px; margin-left:16px;}
+.foot-bottom .fb dd{ text-align:center; line-height:20px; height:20px; font-size:13px; color:#444; font-family:microsoft yahei;}
+.beian{ text-align:center; line-height:44px; height:44px; font-size:14px; color:#444; font-family:microsoft yahei;}
