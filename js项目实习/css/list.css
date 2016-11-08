@@ -1,0 +1,111 @@
+.content{ width:1200px; margin:0 auto;}
+.content .current{ line-height:34px; color:#999; width:980px; height:34px; margin-top:15px;}
+.content .current a{ color:#333;}
+.content .current a:hover{color:#ff1a3a;}
+.content .current .STYLE{ margin:0 10px;}
+.content .current .cpname{ color:#4e7fc2; margin:0px;}
+/*left*/
+.content .c-left{ float:left; width:230px;}
+.content .c-left .sidebar{ width:228px; border:1px solid #e4e4e4; color:#333;}
+.content .c-left .sidebar a{ color:#333;}
+.content .c-left .sidebar a:hover, .content .c-left .sidebar li:hover a{ color:#ff1a3a;}
+.content .c-left .sidebar dt h3{ width:228px; background:url(http://photo.no5.com.cn/page_2014/images/h3bg.jpg) repeat-x; height:36px; line-height:36px; cursor: pointer; font-size:13px;}
+.content .c-left .sidebar dt .open{ background:url(../images/detail.gif) no-repeat 0 -234px; width:15px; height:14px; float:left; margin:10px 10px 0px 12px;}
+.content .c-left .sidebar dt .close{ background:url(../images/detail.gif) no-repeat 0 -248px; width:15px; height:14px; float:left; margin:10px 10px 0px 12px;}
+.content .c-left .sidebar .sl{ font-size:12px; color:#999; font-weight:normal; margin-left:2px;}
+.content .c-left .sidebar dd ul{ width:154px; border-bottom:1px solid #e4e4e4; padding:8px 37px;}
+.content .c-left .sidebar dd ul li{ line-height:26px; height:26px; cursor: pointer; }
+.content .c-left .box_tj{ width:228px; border:1px solid #e4e4e4; margin-top:10px;}
+.content .c-left .title_tj{width:226px; height:33px; line-height:33px; margin:1px; background:url(http://photo.no5.com.cn/page_2014/images/p2lbg.jpg) repeat-x; color:#333; font-family:microsoft yahei; font-size:14px; font-weight:bold; text-align:center; border-bottom:1px solid #e4e4e4;}
+.content .c-left .good_tj{ border-bottom:1px dashed #e4e4e4; text-align:center; padding:6px; width:216px;}
+.content .c-left .imgbox{ width:120px; height:120px; margin:10px auto;}
+.content .c-left .textbox p{ line-height:20px;}
+.content .c-left .textbox .proname{ width:210px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align:center; padding:0 3px;}
+.content .c-left .textbox .proprice{ font-family:microsoft yahei; color:#ff1a3a; font-size:14px; font-weight:bold;}
+.content .c-left .textbox .proprice span{ font-family:verdana;}
+.content .c-left .good_rx{ padding:15px 10px; margin-bottom:0px; width:208px; height:82px; overflow:hidden;}
+.content .c-left .tl_img{ float:left; width:100px; height:82px; text-align:left;}
+.content .c-left .tl_text{ float:left; width:102px; padding-top:15px;}
+.content .c-left .tl_text p{ line-height:16px;}
+.content .c-left .rx_name{ text-align:left; height:30px; overflow:hidden;}
+.content .c-left .rx_price{ text-align:right; margin-top:8px; font-family:microsoft yahei; color:#ff1a3a; font-size:14px; font-weight:bold;}
+.content .c-left .rx_price span{ font-family:verdana;}
+.content .c-left .good_zj p{ line-height:16px;}
+.content .c-left .box_tj .lastdiv{ border-bottom:none;}
+/*right*/
+.content .c-right{ width:960px; float:right;}
+/*right下部翻页*/
+.content .page-below{clear:both;}
+.content .page-below .inner{float:right; margin-top:20px;}
+.content .page-below a,.content .page-below span{float:left; height:20px; padding:2px 10px; border:1px solid #ccc; margin-left:2px; font-family:arial; line-height:20px; font-size:12px; overflow:hidden; color:#005aa0; background:#fff;}
+.content .page-below a:hover { background-color: #ccc; }
+.content .page-below .elli{ float:left; padding:0 10px; font-family: verdana; border:none; background:none;}
+.content .page-below .disa-btn{ color:#ccc; cursor:default; }
+.content .page-below .curr{ background:#02a3f0; color:#fff; border:1px solid #02a3f0; font-weight:bold; cursor: default; }
+.content .page-below a.curr:hover { background-color: #02a3f0; }
+.content .c-right h2 { white-space: nowrap; }
+.content .c-right .reco{ border:1px solid #e4e4e4; width:958px; float:left; margin-bottom:10px;}
+.content .c-right .reco dl{ width:293px; float:left; padding:13px;}
+.content .c-right .reco dl dt{ float:left; width:146px;}
+.content .c-right .reco dl dt dd{ float:left; width:147px;}
+.content .c-right .reco dl .proname{ line-height:18px; height:36px; overflow:hidden; margin-top:20px;}
+.content .c-right .reco dl .proprice{margin-top:12px; font-family:microsoft yahei; color:#ff1a3a; font-size:14px; font-weight:bold;}
+.content .c-right .reco dl .proprice span{ font-family:verdana;}
+.content .c-right .reco dl .buybtn{ margin-top:8px; }
+.content .c-right .reco dl .buybtn a{ display:block; float:left; width:80px; height:24px; line-height:24px; border-radius:3px; background:#fc1c5a; text-align:center; color:#fff;}
+/*right筛选框*/
+.content .c-right .select{ width:914px; border:3px solid #f4f4f4; float:left; padding:20px; padding-bottom:15px;}
+.content .c-right .select dl{ width:914px; border-bottom:1px solid #f4f4f4; float:left; padding:3px 0;}
+.content .c-right .select .lastdl{ border-bottom:none;}
+.content .c-right .select dl dt{ width:70px; float:left; text-align:right; color:#000; font-weight:bold; line-height:24px;}
+.content .c-right .select dl dd{ width:830px; float:right; color:#005EA7;}
+.content .c-right .select dl dd a{ color:#0066cc;}
+.content .c-right .select dl dd .zm{ float:left; height:20px; border:1px solid #fff; margin-right:3px; padding:0px 10px; line-height:20px; font-family:Verdana; cursor:pointer; color:#0066cc;}
+.content .c-right .select dl dd .more{ float:right; width:46px; padding-left:10px; height:20px; line-height:20px; border:1px solid #e0dee0; border-radius:2px; background:#F7F7F7 url(http://photo.no5.com.cn/page_2014/images/b.jpg) no-repeat 38px 8px; cursor:pointer; color:#333;}
+.content .c-right .select dl dd .curr{ border: 1px solid #02a3f0; background:#02a3f0; color:#fff; position:relative;}
+.content .c-right .select dl dd .curr b{ position:absolute; left:50%; bottom:-10px; overflow:hidden; width:0px; height:0px; border-width:5px; border-style:solid dashed dashed; border-color:#02a3f0 transparent transparent; margin-left:-5px;}
+.content .c-right .select dl dd .brands{ width:750px; float:left; padding:10px 40px; padding-bottom:4px;}
+.content .c-right .select dl dd .brands li{ width:125px; overflow:hidden; white-space: nowrap; height:20px; padding-top:4px; float:left; margin-left:20px; }
+.content .c-right .select dl dd .brands .b0{display: block;} 
+.content .c-right .select dl dd .brands .b1,.b2,.b3,.b4,.b5,.b6,.b7{display: none;}
+.content .c-right .select dl dd .brands div a:hover{ color:#fff; background:#02a3f0; border:1px solid #02a3f0;}
+.content .c-right .select dl dd .bux{ background:#02a3f0; float:left; height:20px; border:1px solid #fff; margin-right:16px; line-height:20px; font-family:Verdana; cursor:default; color:#fff; padding:0 4px; margin-top:1px;}
+.content .c-right .select dl dd .bux2{ background:#02a3f0; color: #fff; }
+.content .c-right .select dl dd .bux-out{ background:#fff; }
+.content .c-right .select dl dd .bux a{ color:#fff;}
+.content .c-right .select dl dd .bux-out a{ color:#06c; display: inline-block; padding: 3px 5px; position: relative; top: -3px; left: -5px; }
+.content .c-right .select dl dd .bux-out a:hover { text-decoration: underline; }
+.content .c-right .select dl dd .zm a{ border:1px solid #fff;}
+.content .c-right .select dl dd .zm a:hover{ color:#fff; background:#02a3f0; border:1px solid #02a3f0;}
+
+/*right产品列表*/
+.content .c-right .filter{ margin-top:10px; width:938px; height:26px; background:url(http://photo.no5.com.cn/page_2014/images/filbg.jpg) repeat-x; border:1px solid #eee; border-top:2px solid #15ade0; float:left; padding:5px 10px;}
+.content .c-right .filter dl,.content .c-right .filter dl dt,.content .c-right .filter dl dd{ float:left; line-height:26px;}
+.content .c-right .filter dl dd{ height:24px; border:1px solid #CECBCE; background:#f6f6f6; border:1px solid #cecbce; margin-right:5px; line-height:24px; padding:0 10px;}
+.content .c-right .filter dl .curr{ background:#fc1c5a; border:1px solid #fc1c5a; color:#fff; font-weight:bold; position: relative; }
+.content .c-right .filter dl .curr a{ color:#fff;}
+.content .c-right .filter .page{ float:right; height:26px; border-left:1px solid #e7e3e7;}
+.content .c-right .filter .page span,.content .c-right .filter .page a{ float:left; padding:3px 10px; border:1px solid #ccc; margin-left:2px; font-family:arial; overflow:hidden; border-radius:3px; background:#f8f8f8; height:14px; line-height:14px; color:#005aa0; margin-top:2px;}
+.content .c-right .filter .page .mb{ font-family:verdana; border:0; padding:4px 11px;}
+.content .c-right .filter .page .mb i{ font-style:normal; font-weight:bold; color:#fc1c5a;}
+.content .c-right .filter .page .disa-btn{ padding-left:12px; color:#ccc; cursor:default;}
+.content .c-right .filter .total{ float:right; height:22px; padding:2px 15px 2px 0; line-height:22px; font-family:verdana; color:#fc1c5a;}
+.content .c-right .filter dd { cursor: pointer; }
+.content .c-right .filter dd:hover { text-decoration: underline; }
+.content .c-right .filter dd.curr:hover { text-decoration: underline; color: #fff; }
+#load-tip { position: absolute; visibility: hidden; color: #FF4E00; background: #FEF8D1 url(/images/loading.gif) no-repeat 420px; border: 1px solid #FCE3B6; padding: 10px; width: 938px; text-align: center; margin-top: 40px; margin-left: -11px; *margin-top: 15px; moz-opacity:0.8; opacity: 0.8; filter: alpha(opacity=80); box-shadow: 3px 3px 1px #b8b8b8; }
+.content .c-right .cplist{ width:960px; float:left; margin:10px 0;}
+.content .c-right .cplist dl{ width:214px; float:left; background:#fff; padding:13px;}
+.content .c-right .cplist dl dt{ padding:7px; width:200px; height:200px; background:#fff;}
+.content .c-right .cplist dl .pro-name{ line-height:18px; height:36px; overflow:hidden;}
+.content .c-right .cplist dl .pro-name em{ color: #fc1c5a; }
+.content .c-right .cplist dl .pro-name a:hover{ color:#ff1a3a; text-decoration:underline;}
+.content .c-right .cplist dl .pro-price{ color:#ff1a3a; font-size:14px; font-family:microsoft yahei; font-weight:bold; margin:10px 0 3px 0;}
+.content .c-right .cplist dl .pro-price span{ font-family:verdana; font-size:16px;}
+.content .c-right .cplist dl .pro-price .zhekou{ font-family:simsun; font-size:12px; font-weight:normal;}
+.content .c-right .cplist dl .buybtn a{ display:block; float:left; padding:0 15px; height:24px; line-height:24px; border-radius:3px; background:#fc1c5a; text-align:center; }
+.content .c-right .cplist dl .buybtn .quit{ background:#ffff00; color:#ff0000;}
+.content .c-right .cplist dl .buybtn .add{ background:#fc1c5a; color:#fff;}
+.content .c-right .cplist dl .buybtn .shouc{ background:#efefef; color:#666; margin-left:10px; border:1px solid #dfdfdf; height:22px; line-height:22px;}
+.content .c-right .cplist dl:hover{ background:#f4f4f4;}
+.content .c-right .cplist .nofind {position: relative; padding: 20px 0 0 170px; height: 62px; font-size: 14px; font-weight: bold; color: #f60; }

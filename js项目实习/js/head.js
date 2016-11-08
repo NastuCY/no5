@@ -58,7 +58,7 @@ $(function(){
 						
 					dt2_html += "<h4><a href = '#'>" + data[i].child_des2[m].title + "</a></h4>" + dtbrand_html + "<div><img src = '" + data[i].child_des2[m].img +"'/></div>"
 					}
-				html += "<dl id = 'box" + i +"'><dt><strong><h3><a href = '#'>" + data[i].title + "</a></h3></strong><p>" + dl_html + "</p></dt><dd><ul class = 'secondlist'>" + dt1_html + "</ul><div class = 'hotbrand'><ul>" + dt2_html + "</ul></div></dd></dl>" ;
+				html += "<dl id = 'box" + i +"'><dt><strong><h3><a href = 'detail.html'>" + data[i].title + "</a></h3></strong><p>" + dl_html + "</p></dt><dd><ul class = 'secondlist'>" + dt1_html + "</ul><div class = 'hotbrand'><ul>" + dt2_html + "</ul></div></dd></dl>" ;
 				}
 			$('#navbox').html(html)	;
 		$(".float_list_btn").mouseenter(function(){

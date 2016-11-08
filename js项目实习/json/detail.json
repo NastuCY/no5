@@ -1,0 +1,21 @@
+[{
+	"img1": "images/small1.jpg",
+	"img2": "images/more1.jpg",
+	"img3": "images/big1.jpg"
+},{
+	"img1": "images/small2.jpg",
+	"img2": "images/more2.jpg",
+	"img3": "images/big2.jpg"
+},{
+	"img1": "images/small3.jpg",
+	"img2": "images/more3.jpg",
+	"img3": "images/big3.jpg"
+},{
+	"img1": "images/small4.jpg",
+	"img2": "images/more4.jpg",
+	"img3": "images/big4.jpg"
+},{
+	"img1": "images/small5.jpg",
+	"img2": "images/more5.jpg",
+	"img3": "images/big5.jpg"
+}]

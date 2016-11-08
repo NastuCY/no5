@@ -45,7 +45,23 @@ $.ajax({
 	$("#head_info").load("head.html",function(){
 //			欢迎词
 			var now = new Date;
-			if(now.getHours() >= 6 && now.getHours() <8){
+			if(getCookie("judge")==1){
+				$(".log").html("[退出登录]");
+				$(".reg .reg").css("display","none")
+		if(now.getHours() >= 6 && now.getHours() <8){
+			$(".time").html("早上好，<b style='color:red'>" + getCookie("name")+ "</b>！欢迎来到No5时尚广场。");
+			
+		}else if(now.getHours() >= 8 && now.getHours() <12){
+			$(".time").html("上午好，<b style='color:red'>" + getCookie("name")+ "</b>！欢迎来到No5时尚广场。")
+		}else if(now.getHours() >= 12 && now.getHours() <14){
+			$(".time").html("中午好，<b style='color:red'>" + getCookie("name")+ "</b>！欢迎来到No5时尚广场。")
+		}else if(now.getHours()>= 14 && now.getHours()<18){
+			$(".time").html("下午好，<b style='color:red'>" + getCookie("name")+ "</b>！欢迎来到No5时尚广场。")
+		}else {
+			$(".time").html("晚上好，<b style='color:red'>" + getCookie("name")+ "</b>！欢迎来到No5时尚广场。")
+		};
+	 }else{
+	 	if(now.getHours() >= 6 && now.getHours() <8){
 				$(".time").html("早上好，欢迎光临No5时尚广场。")
 			}else if(now.getHours() >= 8 && now.getHours() <12){
 				$(".time").html("上午好，欢迎光临No5时尚广场。")
@@ -56,6 +72,7 @@ $.ajax({
 			}else {
 				$(".time").html("晚上好，欢迎光临No5时尚广场。")
 			};
+	 }
 //			搜索框
 			$(".search_top").mouseover(function(){
 				$(".del-keywords").css("visibility","visible");
@@ -101,7 +118,7 @@ $.ajax({
 						
 					dt2_html += "<h4><a href = '#'>" + data[i].child_des2[m].title + "</a></h4>" + dtbrand_html + "<div><img src = '" + data[i].child_des2[m].img +"'/></div>"
 					}
-				html += "<dl id = 'box" + i +"'><dt><strong><h3><a href = '#'>" + data[i].title + "</a></h3></strong><p>" + dl_html + "</p></dt><dd><ul class = 'secondlist'>" + dt1_html + "</ul><div class = 'hotbrand'><ul>" + dt2_html + "</ul></div></dd></dl>" ;
+				html += "<dl id = 'box" + i +"'><dt><strong><h3><a href = 'detail.html'>" + data[i].title + "</a></h3></strong><p>" + dl_html + "</p></dt><dd><ul class = 'secondlist'>" + dt1_html + "</ul><div class = 'hotbrand'><ul>" + dt2_html + "</ul></div></dd></dl>" ;
 				}
 			$('#navbox').html(html)	;
 		$("#navbox dl").mouseenter(function(){	
