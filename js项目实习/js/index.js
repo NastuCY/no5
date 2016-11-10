@@ -376,7 +376,7 @@ $.ajax({
 				for(var p in data[i].title_r){
 				tit_html += "<dd><a href = '#'>" + data[i].title_r[p] + "</a></dd>"
 				}
-				brand_html = "<div class = 'brand-tit'><div class = 'brand-tit-l'>"+data[0].title_l+ "</div><div class = 'brand-tit-r'><dl>" + tit_html + "</div></div><div class = 'brand-main'>"+brand1_html+brand2_html+"</div>";
+				brand_html = "<div class = 'brand-tit'><div class = 'brand-tit-l'>"+data[0].title_l+ "</div><div class = 'brand-tit-r'><dl>" + tit_html + "</div></div><div class = 'brand-main'>"+brand2_html+brand1_html+"</div>";
 			}else  if(i < 3 && i !=0){//护肤和彩妆
 			 	minbrand_html += "<div class = 'sc-banner'><a href = '#'><img height = '480' width = '268' src = '"+ data[i].content[0].banner+"'/></a></div>";
 			 	for(var j = 0; j < data[i].content[0].child.length; j++){

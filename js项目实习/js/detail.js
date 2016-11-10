@@ -159,22 +159,30 @@ $.ajax({
 			$("#big img").attr("src",bigarr[index])
 			var morearr = ["images/more1.jpg","images/more2.jpg","images/more3.jpg","images/more4.jpg","images/more5.jpg"]
 			$("#more_box img").attr("src",morearr[index])
+		});	
 			
+		
+	}
+	
+	
+});
 			var oMove = document.getElementById("move");
 			var oBig = document.getElementById("big");
 			var oMore = document.getElementById("more_box");
-			var oPic = document.getElementsByClassName("p01_l");
+			var oPic = document.getElementsByClassName("p01_l")[0];
 			var oImg = document.getElementById("more_box").getElementsByTagName("img")[0];
 			
 			oBig.onmouseover = function(){
 				oMove.style.display = "block";
 				oMore.style.display = "block";
+				
 			};
 			oBig.onmouseout = function(){
 				oMove.style.display = "none";
 				oMore.style.display = "none";
 			}
 			oBig.onmousemove = function(evt){
+				
 				var e =evt||window.event;
 				var l = e.pageX - oPic.offsetLeft - oBig.offsetLeft - oMove.offsetWidth/2;
 				var t = e.pageY - oPic.offsetTop - oBig.offsetTop - oMove.offsetHeight/2;
@@ -188,7 +196,7 @@ $.ajax({
 				}else if(t > oBig.offsetHeight - oMove.offsetHeight){
 					t = oBig.offsetHeight - oMove.offsetHeight;
 				}
-				document.title = t;
+				
 				oMove.style.left = l + "px";
 				oMove.style.top = t + "px";
 				var perecentX = l / (oBig.offsetWidth - oMove.offsetWidth);
@@ -197,15 +205,70 @@ $.ajax({
 				oImg.style.left = -(perecentX*(oImg.offsetWidth - oMore.offsetWidth)) + "px";
 				oImg.style.top = -(perecentY*(oImg.offsetHeight - oMore.offsetHeight)) + "px";
 			}
-		})
+
+$.ajax({
+	url: "json/week-ranklist.json",
+	type: "get",
+	success: function(data){
+		var tj1_html = '';
+		var tj2_html = '';
+		var tjbox1 = '';
+		var tjbox2 = '';
+		for(var i = 0; i < data.length; i++){
+			if(i < 2){
+				tj1_html += "<div class = 'good_tj'><div class = 'imgbox'><a href = '#'><img width = '100' height = '100' src = '"+ data[i].img +"'/></a></div><div class = 'textbox'><p class = 'proname'><a href = '#'>" +data[i].title + "</a></p><p class = 'prodRedTxt'>" + data[i].price +"</p></div><div class='clear'></div></div>"
+				
+				
+			}else if(i == 2){
+					tj2_html = "<div class = 'good_tj lastdiv'><div class = 'imgbox'><a href = '#'><img width = '100' height = '100' src = '"+ data[i].img +"'/></a></div><div class = 'textbox'><p class = 'proname'><a href = '#'>" +data[i].title + "</a></p><p class = 'prodRedTxt'>" + data[i].price +"</p></div><div class='clear'></div></div>"
+			}else{
+				tjbox2 += "<div class = 'good_tj good_rx'><div class = 'tl_img'><a href = '#'><img width = '72' height = '72' src = '" + data[i].img + "'/></a></div><div class = 'tl_text'><p class = 'rx_name'><a href = '#'>" + data[i].title + "</a></p><p class = 'prodRedTxt'>" + data[i].price + "</p></div><div class='clear'></div></div>"
+			}
+			tjbox1 = tj1_html + tj2_html;
+		}
+		$(".tj_box").html(tjbox1);
+		$(".tj_box2").html(tjbox2);
+		$(".tj_box3").html(tjbox2);
 	}
-});
+})
 
+$("#boxBuy .num").eq(0).click(function(){
+	if($("#boxBuy #buyAnt").val() <= 1){
+		$("#boxBuy #buyAnt").val(1);
+	}else{
+		$("#boxBuy #buyAnt").val(Number($("#boxBuy #buyAnt").val()) - 1)
+	}
+})
 
-
-
-
-
+$("#boxBuy .num").eq(1).click(function(){
+	$("#boxBuy #buyAnt").val(Number($("#boxBuy #buyAnt").val()) + 1)
+})
+$("#btnBuy").click(function(){
+	var pname = $(".p01_r .gtitle").html();
+	
+	var ml = $(".p01_r .ml").html();
+	var price = $(".p01_r .exprice").html();
+	var noprice = $(".p01_r .noprice").html();
+	var num = $(".p01_r #buyAnt").val();
+	if(getCookie("pname")){
+		var oldnum = Number(getCookie("num"));
+		var newnum = Number($(".p01_r #buyAnt").val());
+		setCookie("num",oldnum + newnum);
+		setCookie("pname", pname);
+		setCookie("ml", ml);
+		setCookie("price", price);
+		setCookie("noprice", noprice);
+		window.location.href = "shopcar.html";
+		
+	}else{
+		setCookie("num",num);
+		setCookie("pname", pname);
+		setCookie("ml", ml);
+		setCookie("price", price);
+		setCookie("noprice", noprice);
+		window.location.href = "shopcar.html";
+	}
+})
 
 
 

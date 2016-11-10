@@ -179,7 +179,7 @@ $.ajax({
 			}else if(i == 2){
 					tj2_html = "<div class = 'good_tj lastdiv'><div class = 'imgbox'><a href = '#'><img width = '120' height = '120' src = '"+ data[i].img +"'/></a></div><div class = 'textbox'><p class = 'proname'><a href = '#'>" +data[i].title + "</a></p><p class = 'proprice'>" + data[i].price +"</p></div></div>"
 			}else{
-				tjbox2 += "<div class = 'good_tj good_rx'><div class = 'tl_img'><a href = '#'><img width = '82' height = '82' src = '" + data[i].img + "'/></a></div><div calss = 'tl_text'><p class = rx_name'><a href = '#'>" + data[i].title + "</a></p><p class = 'rx_price'>" + data[i].price + "</p></div></div>"
+				tjbox2 += "<div class = 'good_tj good_rx'><div class = 'tl_img'><a href = '#'><img width = '82' height = '82' src = '" + data[i].img + "'/></a></div><div class = 'tl_text'><p class = 'rx_name'><a href = '#'>" + data[i].title + "</a></p><p class = 'rx_price'>" + data[i].price + "</p></div></div>"
 			}
 			tjbox1 = tj1_html + tj2_html;
 		}
@@ -212,7 +212,7 @@ $.ajax({
 			
 		}
 		$("#brand-box").html(brand_box);
-		$(".zm").click(function(){
+		$("#brand-box .zm").click(function(){
 			 var index = $(this).index()-1;
 			$(this).css("background","#02a3f0").siblings().css("background","")
 			$(".brands div").eq(index).css("display","block").siblings().css("display","none")
